@@ -250,7 +250,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    font-size: 0.8em;
+    font-size: 0.57em; /* put this instead of 0.8em in order to make work media queries for wider screens */
     width: 80%;
 }
 
