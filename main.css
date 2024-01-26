@@ -336,7 +336,28 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 }
+*/SUGGESTIONS, TO TRY. THEY WORK ON MY SCREENS/*
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
+    .logo-regular {
+        transform: scale(0.5);
+        height:50vh;
+        max-width: 100%; 
+    } 
+
+    .transparency-section {
+        font-size: 0.8em;
+    }
+} 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {
+    .logo-regular {
+        transform: scale(0.5);
+        height:50vh;
+        max-width: 100%; 
+    } 
+
+    .transparency-section {
+        font-size: 1em;
+    }
+}
